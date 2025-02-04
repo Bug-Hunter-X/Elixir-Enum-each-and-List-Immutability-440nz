@@ -1,0 +1,1 @@
+This example demonstrates a common mistake in Elixir when working with lists and the `Enum.each` function.  Because Elixir lists are immutable, attempting to modify a list inside the `Enum.each` loop will not change the original list. The solution shows how to use Enum.filter to correctly remove elements.
